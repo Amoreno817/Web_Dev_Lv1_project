@@ -1,0 +1,15 @@
+/* element selector */
+    p{
+	color:Gray
+    }
+
+/* ID selector */
+    #myHeader{color:blue;}
+
+/* Class selector */
+    .headers{
+	text-align:center;
+    color:Cyan
+    }
+
+    

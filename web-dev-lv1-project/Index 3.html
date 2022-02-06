@@ -1,0 +1,91 @@
+<html>
+    <head>
+        <title>My First developer index</title>
+        <link rel="stylesheet" href="css/myStyle.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        (<script src="js/main.js"></script>)
+        
+        
+    </head>
+    
+    <body>
+
+        <h style = "color:Magenta;"1> Hello World!</h1>
+        <h2 style = "color:Green;"2> This is my green heading.</h2>
+        <h3 style = "color:Red;"3>Welcome to Alejandro's Website! </h3>
+        <h4 style = "color:Blue;"4> Hope all is well! </h4>
+        <h5 style = "color:Orange;"5>Enjoy your stay here </h5>
+
+        <a href="https://w3schools.com"> Click here to learn how I did this!</a>
+        
+        <h6 style = "color:rgb(255, 187, 0);"6> Peace out! </h6>
+
+        <p>Just kidding; Welcome to my website! 
+        </p>
+        <form>
+        
+            <label>First Name:</label>
+            <input type="text" name="fname" id="firstName"> 
+
+            <label>Last Name:</label>
+            <input type="text" name="lname" id="lastName"> 
+
+            <label>Age:</label>
+            <input type="text" name="age" id="age"> 
+
+            <label>S.S #:</label>
+            <input type="text" name="ss" id="ss"> 
+
+            <label>Body counts:</label>
+            <input type="text" name="body" id="bodyCounts"> 
+
+            <button class="btn btn-danger" onclick="displayUserName()">Click Here</button>
+
+         
+        </form>
+         -->
+    </body>
+</html>
+
+<style>
+
+    /* An element Selector */
+    p{
+	color:Gray
+    }
+
+    /* A ID selector */
+    #myHeader{color:blue;}
+
+    /* A class Selector */
+    .headers{
+	text-align:center;
+    color:Cyan
+    }
+
+</style>
+
+<script>
+
+    function displayUserName()
+    {
+        //do something
+
+        var userfirstName = document.getElementById("firstName").value;
+    
+        //var userlastName
+        var userlastName = document.getElementById("lastName").value;
+
+        //var userage
+        var userage = document.getElementById("age").value;
+
+        //var userss#
+        var userss = document.getElementById("ss").value;
+
+        //var userbodyCounts
+        var userbodyCounts = document.getElementById("bodyCounts").value;
+
+        window.alert("Your input is: " + userfirstName + ' ' + userlastName + '  ' +  userage + '  ' + userss + '  ' + userbodyCounts);
+    }
+
+</script>
